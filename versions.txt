@@ -5,3 +5,6 @@
 - Feature
 1.- Sass.
 2.- React Router Doom.
+1.02
+- Feature
+1.- Zustand.
