@@ -1,6 +1,9 @@
 @use "sass:color";
 @use "variables" as *;
-@use "pages/Home.scss";
+@use "pages/home.scss";
+@use "layout/hero.scss";
+@use "layout/header.scss";
+@use "common/sidebar.scss";
 
 *,
 *::before,
@@ -17,6 +20,12 @@ body {
     sans-serif;
 }
 
+.mx-auto {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -30,6 +39,6 @@ body {
   border-radius: 10px;
 
   &:hover {
-    background-color: variables.$color-bg-card;
+    background-color: $color-bg-card;
   }
 }

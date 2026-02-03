@@ -1,0 +1,9 @@
+@use "../variables.scss" as *;
+
+.global_header {
+  background: red;
+  p {
+    background: blue;
+    width: fit-content;
+  }
+}

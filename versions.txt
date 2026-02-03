@@ -8,3 +8,8 @@
 1.02
 - Feature
 1.- Zustand.
+1.02.1
+- Feature:
+1.- Estructura del scss.
+2.- Hero 70%.
+3.- Archivo de Header.
